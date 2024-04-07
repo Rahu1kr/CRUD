@@ -1,0 +1,21 @@
+# Ignore compiled binaries
+*.exe
+*.o
+*.out
+
+# Ignore generated files
+build/
+dist/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore npm packages
+node_modules/
